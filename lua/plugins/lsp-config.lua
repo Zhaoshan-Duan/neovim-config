@@ -13,6 +13,7 @@ return {
 					"lua_ls", --lua
 					"clangd", --C
 					"jdtls", -- java
+                    "gopls" -- Golan
 				},
 			})
 		end,
@@ -24,6 +25,7 @@ return {
 			lspconfig.lua_ls.setup({})
 			lspconfig.clangd.setup({})
 			lspconfig.jdtls.setup({})
+            lspconfig.gopls.setup({})
 
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "<CR>K", vim.lsp.buf.hover, {})
