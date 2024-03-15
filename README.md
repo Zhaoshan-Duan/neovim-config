@@ -1,16 +1,18 @@
 # Structure
 
-lua/
-    - jojo/
-        - init.lua
-        - lazy.lua
-        - remap.lua
-        - set.lua
-    - plugins/
-    - plugins.lua
+```
+├── README.md
+|-- init.lua
+└── lua
+    |-- plugins.lua
+    |-- jojo
+        ├── init.lua
+        ├── lazy.lua
+        ├── remap.lua
+        └── set.lua 
+    |-- plugins
+        |--
 
-README.md
-init.lua
 
+ 
 # Package List
-
